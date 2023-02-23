@@ -1,0 +1,1135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from www.commonsupport.com/html/Nasim/Vervoer/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 22 Feb 2023 08:13:15 GMT -->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <title>Transport - HTML 5 Template Preview</title>
+
+    <!-- Stylesheets -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/nice-select.css" rel="stylesheet">
+    <link href="assets/css/owl.css" rel="stylesheet">
+    <link href="assets/css/jquery-ui.css" rel="stylesheet">
+    <link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.css" rel="stylesheet">
+    <link href="assets/css/icofont.css" rel="stylesheet">
+    <link href="assets/css/flaticon.css" rel="stylesheet">
+    <link href="assets/css/global.css" rel="stylesheet">
+    <link href="assets/css/elpath.css" rel="stylesheet">
+    <link href="assets/css/header.css" rel="stylesheet">
+    <link href="assets/css/footer.css" rel="stylesheet">
+    <link href="assets/css/banner-section.css" rel="stylesheet">
+    <link href="assets/css/blog-section.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/correction.css" rel="stylesheet">
+    <link href="" rel="stylesheet">
+    <!-- End Stylesheets -->
+
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="assets/images/logo2.png" type="image/x-icon">
+    <link rel="icon" href="assets/images/logo2.png" type="image/x-icon">
+    <!-- End Fav Icon -->
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&amp;display=swap" rel="stylesheet">
+    <!-- End Google Fonts -->
+
+    <!-- page wrapper -->
+
+    <style>
+        .contact-info li a:hover {
+            color: #5A9E41;
+        }
+
+        .social-midea li a:hover {
+            color: #55b152;
+        }
+
+        .scroll-top:hover {
+            color: var(--white-color);
+            background-color: #11468df5;
+            ;
+        }
+
+        .sticky-header .main-menu .navigation>li:hover>a,
+        .sticky-header .main-menu .navigation>li.current>a {
+            color: #5A9E41;
+        }
+
+        .button-style-two:before {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            content: '';
+            z-index: -1;
+            transform: translate(5px, 5px);
+            border: 1px solid #55b152;
+            transition: all 400ms ease;
+            -moz-transition: all 400ms ease;
+            -webkit-transition: all 400ms ease;
+            -ms-transition: all 400ms ease;
+            -o-transition: all 400ms ease;
+        }
+
+        .main-menu .navigation>li.current>a:before,
+        .main-menu .navigation>li:hover>a:before {
+            width: 100%;
+            background-color: #5A9E41;
+        }
+
+        .main-menu .navigation>li>a:before {
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+            width: 0;
+            height: 3px;
+            content: '';
+            background-color: #5A9E41;
+            -webkit-transition: all 500ms ease;
+            -moz-transition: all 500ms ease;
+            -ms-transition: all 500ms ease;
+            -o-transition: all 500ms ease;
+            transition: all 500ms ease;
+        }
+
+        .banner-section .owl-nav button:hover {
+            color: var(--white-color);
+            border-color: #5A9E41;
+            background-color: #5A9E41;
+        }
+
+        .feature-block:before {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 5px;
+            content: '';
+            z-index: 2;
+            background-color: white;
+            transition: 0.35s;
+        }
+
+        .feature-block .feature-inner {
+            position: relative;
+            z-index: 1;
+            border: 5px solid #55b152;
+        }
+
+        .feature-block .feature-inner:before {
+            position: absolute;
+            width: 5px;
+            height: 100%;
+            content: '';
+            bottom: 0;
+            right: -5px;
+            transition: 0.25s;
+            background-color: white;
+        }
+
+        .feature-block .feature-inner:after {
+            position: absolute;
+            width: 5px;
+            height: 100%;
+            content: '';
+            top: 0;
+            left: -5px;
+            transition: 0.25s;
+            background-color: white;
+        }
+
+        .feature-block:after {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            content: '';
+            z-index: 2;
+            background-color: white;
+            transition: 0.35s;
+        }
+
+        .button-style-three:before {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            content: '';
+            z-index: -1;
+            transform: translate(0px, 0px);
+            border: 1px solid #55b152;
+            transition: all 400ms ease;
+            -moz-transition: all 400ms ease;
+            -webkit-transition: all 400ms ease;
+            -ms-transition: all 400ms ease;
+            -o-transition: all 400ms ease;
+        }
+
+        .service-block-001 .text-area h4 a:hover {
+            color: #55b152;
+        }
+
+        .service-block-001 .hidden-content .link-button a:hover {
+            color: #55b152;
+        }
+
+        .tab-buttons .tab-btn .icon-one {
+            font-size: 30px;
+            margin-right: 10px;
+            color: #55b152;
+            transition: all 500ms ease;
+            -moz-transition: all 500ms ease;
+            -webkit-transition: all 500ms ease;
+            -ms-transition: all 500ms ease;
+            -o-transition: all 500ms ease;
+        }
+
+        .tab-buttons .tab-btn.active-btn,
+        .tab-buttons .tab-btn:hover {
+            color: var(--white-color);
+            background-color: #5A9E41;
+        }
+
+        .main-footer .widget-title h5:after {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 45px;
+            height: 2px;
+            content: '';
+            background: linear-gradient(270deg, #11468df5 -22.92%, #55b152 56.63%);
+        }
+
+        .contact-info-two li a:hover {
+            color: #5A9E41;
+        }
+
+        .newsletter-form input:focus,
+        .newsletter-form input:hover {
+            border-color: #5A9E41;
+        }
+    </style>
+
+<body class="boxed_wrapper">
+
+    <!-- Search Popup -->
+    <div id="search-popup" class="search-popup">
+        <div class="popup-inner">
+            <div class="upper-box clearfix">
+                <figure class="logo-box pull-left"><a href="index-2.html"><img src="assets/images/logo1.png" alt=""></a>
+                </figure>
+                <div class="close-search pull-right"><i class="flaticon-cross"></i></div>
+            </div>
+            <div class="overlay-layer"></div>
+            <div class="container">
+                <div class="search-form">
+                    <form method="post" action="https://www.commonsupport.com/html/Nasim/Vervoer/index.html">
+                        <div class="form-group">
+                            <fieldset>
+                                <input type="search" class="form-control" name="search-input" value=""
+                                    placeholder="Type your keyword and hit" required>
+                                <button type="submit"><i class="flaticon-search"></i></button>
+                            </fieldset>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Search Popup -->
+
+    <!-- Preloader -->
+    <div class="loader-wrap">
+        <div class="preloader">
+            <div class="preloader-close">x</div>
+            <div id="handle-preloader" class="handle-preloader">
+                <div class="animation-preloader">
+                    <div class="spinner"></div>
+                    <div class="txt-loading">
+                        <span data-text-preloader="U" class="letters-loading">
+                            U
+                        </span>
+                        <span data-text-preloader="-" class="letters-loading">
+                            -
+                        </span>
+                        <span data-text-preloader="S" class="letters-loading">
+                            S
+                        </span>
+                        <span data-text-preloader="E" class="letters-loading">
+                            E
+                        </span>
+                        <span data-text-preloader="N" class="letters-loading">
+                            N
+                        </span>
+                        <span data-text-preloader="D" class="letters-loading">
+                            D
+                        </span>
+                        <!-- <span data-text-preloader="R" class="letters-loading">
+                            R
+                        </span> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End preloader -->
+
+    <!-- Main Header -->
+    <header class="main-header">
+
+        <!-- Header Top -->
+        <div class="header-top-one">
+            <div class="container" style=" background-color: #11468df5;">
+                <div class="header-outer-box">
+                    <div class="header-top-left">
+                        <div class="contact-info">
+                            <ul>
+                                <li><a href="#"><i class="flaticon-mail"></i>support@U-Send.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="header-top-right">
+                        <div class="social-midea">
+                            <ul>
+
+                                <li><a href="#"><i class="flaticon-facebook-1"></i></a></li>
+                                <li><a href="#"><i class="flaticon-instagram"></i></a></li>
+                                <li><a href="#"><i class="flaticon-twitter"></i></a></li>
+                                <li><a href="#"><i class="flaticon-dribbble-1"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Header Top -->
+
+        <!-- Header Top -->
+        <div class="header-lower">
+            <div class="container">
+                <div class="outer-box">
+                    <div class="logo-box">
+                        <figure class="logo"><a href="index-2.html"><img src="assets/images/logo1.png" alt=""
+                                    style="height: 35px; margin-left: 25px;"></a>
+                        </figure>
+                    </div>
+                    <div class="menu-area">
+                        <!--Mobile Navigation Toggler-->
+                        <div class="mobile-nav-toggler">
+                            <i class="icon-bar"></i>
+                            <i class="icon-bar"></i>
+                            <i class="icon-bar"></i>
+                        </div>
+                        <nav class="main-menu navbar-expand-md navbar-light">
+                            <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                                <ul class="navigation clearfix">
+                                    <li class="current dropdown"><a href="index-2.html">Home</a>
+                                    </li>
+                                    <li><a href="contact.html">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="header-right-button">
+                        <a href="#" class="button-style-one"><i class="far fa-paper-plane"></i>Tracking Your Order</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Header Top -->
+
+        <!-- Sticky Header-->
+        <div class="sticky-header">
+            <div class="container">
+                <div class="outer-box">
+                    <div class="logo-box">
+                        <figure class="logo"><a href="index-2.html"><img src="assets/images/logo1.png" alt=""
+                                    style=" height: 35px; margin-left: 20px;"></a>
+                        </figure>
+                    </div>
+                    <div class="menu-area">
+                        <nav class="main-menu navbar-expand-md navbar-light">
+                            <!--Keep This Empty / Menu will come through Javascript-->
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Sticky Header-->
+
+        <!-- Mobile Menu  -->
+        <div class="mobile-menu">
+            <div class="menu-backdrop" style=" background-color: #11468df5;"></div>
+            <div class="close-btn">X</div>
+
+            <nav class="menu-box">
+                <div class="nav-logo"><a href="index-2.html"><img src="assets/images/logo1.png" alt="" title=""></a>
+                </div>
+                <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+                </div>
+                <div class="contact-info">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li>Chicago 12, Melborne City, USA</li>
+                        <li><a href="tel:+8801682648101">+88 01682648101</a></li>
+                        <li><a href="mailto:info@example.com">info@example.com</a></li>
+                    </ul>
+                </div>
+                <ul class="social-links centred">
+                    <li><a href="index-2.html"><span class="fab fa-twitter"></span></a></li>
+                    <li><a href="index-2.html"><span class="fab fa-facebook-square"></span></a></li>
+                    <li><a href="index-2.html"><span class="fab fa-pinterest-p"></span></a></li>
+                    <li><a href="index-2.html"><span class="fab fa-instagram"></span></a></li>
+                    <li><a href="index-2.html"><span class="fab fa-youtube"></span></a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- End Mobile Menu -->
+
+    </header>
+    <!-- End Main Header -->
+
+    <!-- Hidden Sidebar -->
+    <section class="hidden-sidebar close-sidebar">
+        <div class="wrapper-box">
+            <div class="content-wrapper">
+                <div class="hidden-sidebar-close"><i class="flaticon-cross"></i></div>
+                <div class="text-widget mb_30">
+                    <div class="logo"><a href="index-2.html"><img src="assets/images/logo1." alt=""></a></div>
+                    <div class="text">Demoralized by the charms of pleasure of the moment so blinded by desire that they
+                        cannot foresees the pain.</div>
+                </div>
+                <!-- PDF Widget -->
+                <div class="pdf-widget mb_30">
+                    <div class="content mb_10">
+                        <div class="icon"><img src="assets/images/icons/low-price.svg" alt=""></div>
+                        <h6>Affordable Cost</h6>
+                    </div>
+                    <div class="content">
+                        <div class="icon"><img src="assets/images/icons/order-tracking.svg" alt=""></div>
+                        <h6>Tracking Moving</h6>
+                    </div>
+                </div>
+                <!-- Contact Widget -->
+                <div class="contact-widget">
+                    <div class="icon-box">
+                        <div class="icon"><i class="flaticon-pin"></i></div>
+                        <div class="text">Boat House, 152/21 City Road, <br> Hoxton, N1 6NG, UK.</div>
+                    </div>
+                    <div class="icon-box">
+                        <div class="icon"><i class="flaticon-telephone-1"></i></div>
+                        <div class="text"><strong>Phone</strong><a href="tel:(+61)3245689790">(+61) 324 56 789 & 790</a>
+                        </div>
+                    </div>
+                    <div class="icon-box">
+                        <div class="icon"><i class="flaticon-envelope"></i></div>
+                        <div class="text"><strong>Email</strong><a
+                                href="tel:(+61)32456789790">supportyou@transida.com</a></div>
+                    </div>
+                </div>
+                <!-- Link Btn -->
+                <div class="link-btn"><a href="#" class="button-style-three"><i class="flaticon-document"></i>Purchase
+                        Our Theme</a></div>
+            </div>
+        </div>
+    </section>
+    <!-- End Hidden Sidebar -->
+
+    <!-- Banner Section -->
+    <section class="banner-section">
+        <div class="banner-carousel owl-theme owl-carousel owl-dots-none">
+            <div class="slide-item">
+                <div class="image-layer" style="background-image: url(assets/images/banner/banner-1.jpg);"></div>
+                <div class="container">
+                    <div class="content-box centred">
+                        <h1 class="title">Shop Online
+                            <br><span>Tax Free and Save </span>
+                        </h1>
+                        <h6 class="sub-title" style="margin-bottom: 40px;">Get your free US mailing address, shop online
+                            (Tax-free), and forward your package same day world-wide.</h6>
+                        <div class="btn-box">
+                            <a href="#" class="button-style-two" style="background-color: #5A9E41;"><i
+                                    class="far fa-paper-plane"></i>Sign Up for Free</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-item">
+                <div class="image-layer" style="background-image: url(assets/images/banner/banner-1-1.jpg);"></div>
+                <div class="container">
+                    <div class="content-box centred">
+                        <h1 class="title">Shop Online
+                            <br><span>Tax Free and Save </span>
+                        </h1>
+                        <h6 class="sub-title" style="margin-bottom: 40px;">Get your free US mailing address, shop online
+                            (Tax-free), and forward your package same day world-wide.</h6>
+                        <div class="btn-box">
+                            <a href="#" class="button-style-two" style="background-color: #5A9E41;"><i
+                                    class="far fa-paper-plane"></i>Sign Up for Free</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-item">
+                <div class="image-layer" style="background-image: url(assets/images/banner/banner-1-2.jpg);"></div>
+                <div class="container">
+                    <div class="content-box centred">
+                        <h1 class="title">Shop Online
+                            <br><span>Tax Free and Save </span>
+                        </h1>
+                        <h6 class="sub-title" style="margin-bottom: 40px;">Get your free US mailing address, shop online
+                            (Tax-free), and forward your package same day world-wide.</h6>
+                        <div class="btn-box">
+                            <a href="#" class="button-style-two" style="background-color: #5A9E41;"><i
+                                    class="far fa-paper-plane"></i>Sign Up for Free</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner-plane" data-parallax='{"x": 200}'><img src="assets/images/banner/plane.png" alt=""></div>
+        <div class="banner-shape" data-parallax='{"x": 200}'><img src="assets/images/shape/shape-1.png" alt=""></div>
+        <div class="vertical-text">
+            <div data-parallax='{"x": 50}'>VERVOER</div>
+        </div>
+    </section>
+    <!-- End Banner Section -->
+
+    <!-- Company About -->
+    <section class="company-about">
+        <div class="shape-seven wow slideInLeft animated" data-wow-delay="200ms" data-wow-duration="2500ms">
+            <div class="shape" data-parallax='{"x": 20}'>
+                <img src="assets/images/shape/landing.png" alt="">
+            </div>
+        </div>
+        <div class="shape-eight wow slideInRight animated" data-wow-delay="200ms" data-wow-duration="2500ms">
+            <div class="shape" data-parallax='{"x": 20}'>
+                <img src="assets/images/shape/Illustration.png" alt="">
+            </div>
+        </div>
+        <div class="container">
+            <div class="shape-inner">
+                <div class="pattern-layer parallax-scene parallax-scene-1">
+                    <div data-depth="0.40" class="pattern-1"
+                        style="background-image: url(assets/images/resource/map-image-2.png);"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-5 col-lg-12" style="    width: 450px;">
+                    <div class="image-colmun" style="    width: 400px;">
+                        <div class="shape-image"><img src="assets/images/shape/certified-logo.png" alt=""></div>
+                        <div class="image-box">
+                            <img src="assets/images/resource/about-image.jpg" alt="">
+                        </div>
+                        <div class="image-box-1"
+                            style="background-image: url(assets/images/resource/about-image-2.jpg);">
+                            <div class="text-inner">
+                                <div class="logo"><img src="assets/images/logo1.png" alt=""
+                                        style=" margin-left: -40px; width: 200px; background-color: white; height: 40px;">
+                                </div>
+                                <div class="qoute">“</div>
+                                <div class="text mb_30">Dapibus interdum senectus malesuada est nec morbi cursus. Amet
+                                    in mollis.</div>
+                                <div class="basic-info">
+                                    <div class="text-left">
+                                        <div class="authre-name">- Romana Preti</div>
+                                        <div class="designation">CEO & Founder</div>
+                                    </div>
+                                    <div class="sign">Romana</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-7 col-lg-12" style="width: 900px;">
+                    <div class="content-colmun">
+                        <div class="section-title">
+                            <h3 class="title"><span style=" color: #5A9E41;">How it Works</span></h3>
+                        </div>
+                        <div class="company-feature" style="width: 850px;">
+                            <div class="feature-block">
+                                <div class="feature-inner">
+                                    <div class="icon-box">
+                                        <img src="assets/images/icons/low-price.svg" alt="">
+                                    </div>
+                                    <h6 class="title">1.Register</h6>
+                                    <p>Reserve your shipping address for free</p>
+                                </div>
+                            </div>
+                            <div class="feature-block">
+                                <div class="feature-inner">
+                                    <div class="icon-box">
+                                        <img src="assets/images/icons/clock.svg" alt="">
+                                    </div>
+                                    <h6 class="title">2.Shop Online</h6>
+                                    <p>Shop online tax-free at any US retailer</p>
+                                </div>
+                            </div>
+                            <div class="feature-block">
+                                <div class="feature-inner" style="padding-top: 9px;">
+                                    <div class="icon-box">
+                                        <img src="assets/images/icons/order-tracking.svg" alt="">
+                                    </div>
+                                    <h6 class="title">3.Forward</h6>
+                                    <p>Select your preferred courier and save up to 80% </p>
+                                </div>
+                            </div>
+                            <div class="feature-block">
+                                <div class="feature-inner">
+                                    <div class="icon-box">
+                                        <img src="assets/images/icons/order-tracking.svg" alt="">
+                                    </div>
+                                    <h6 class="title">4.Unbox</h6>
+                                    <p>Your package will arrive in 2-4 days worldwide* </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="link-button">
+                            <a href="about.html" class="button-style-three" style=" background-color: #5A9E41;"><i
+                                    class="flaticon-document"></i>How it
+                                Works</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Company About -->
+
+    <!-- Service Section One -->
+    <section class="service-001 sec-padd-150">
+        <div class="container">
+            <div class="section-title centred mb_30 wow fadeInUp animated" data-wow-delay="300ms"
+                data-wow-duration="1500ms">
+
+                <h3 class="title">Why U-SEND?</h3>
+                <p class="title-text" style="width: 700px; margin: auto;">Get your dedicated Tax-free shipping address
+                    in the US for free, and forward your packages anywhere worldwide. Our friendly team is constantly
+                    working to make sure that you are 100% satisfied, and in the loop every step of the way.</p>
+                <br>
+                <p style="width: 700px; margin: auto;">This tax-free forwarding service is also great for shoppers in
+                    the US, where you can save up to 9.5% on sales tax for everyday purchases.</p>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 colmun">
+                    <div class="service-block-001 mb_30 wow fadeInUp animated" data-wow-delay="00ms"
+                        data-wow-duration="1500ms">
+                        <div class="service-inner" style="background-image: url(images/service/service-7.jpg);">
+                            <div class="logo-icon" style=" background-color: #5A9E41;">
+                                <img src="assets/images/icons/air-freight.svg" alt="">
+                            </div>
+                            <div class="tag"><img src="assets/images/icons/01.png" alt=""></div>
+                            <div class="show-content" style=" background-color: #11468df5;">
+                                <div class="text-area">
+                                    <h4><a href="#">Easy to use App</a></h4>
+                                    <p>Our state of the art apps for IOS and Android make it easy to register, see what
+                                        packages have...</p>
+                                </div>
+                                <div class="image-box">
+                                    <img src="assets/images/service/service-4.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="hidden-content" style=" background-color: #11468df5;">
+                                <div class="text-area">
+                                    <h4 class="hidden"><a href="#">Easy to use App</a></h4>
+                                    <p>Our state of the art apps for IOS and Android make it easy to register, see what
+                                        packages have arrived, create shipments, and track your orders.</p>
+                                    <div class="link-button"><a href="service-details.html"><i
+                                                class="flaticon-right-arrow-1"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 colmun">
+                    <div class="service-block-001 mb_30 wow fadeInUp animated" data-wow-delay="300ms"
+                        data-wow-duration="1500ms">
+                        <div class="service-inner" style="background-image: url(assets/images/service/service-8.jpg);">
+                            <div class="logo-icon" style=" background-color: #5A9E41;">
+                                <img src="assets/images/icons/rail-freight.svg" alt="">
+                            </div>
+                            <div class="tag"><img src="assets/images/icons/02.png" alt=""></div>
+                            <div class="show-content" style=" background-color: #11468df5;">
+                                <div class="text-area">
+                                    <h4><a href="#">Tax free Address</a></h4>
+                                    <p>Save hundreds of dollars when you shop online using your tax-free shipping
+                                        address. That... </p>
+                                </div>
+                                <div class="image-box">
+                                    <img src="assets/images/service/service-5.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="hidden-content" style=" background-color: #11468df5;">
+                                <div class="text-area">
+                                    <h4><a href="#">Tax free Address</a></h4>
+                                    <p>Save hundreds of dollars when you shop online using your tax-free shipping
+                                        address. That is an extra 9.5% in savings when compared to other states. </p>
+                                    <div class="link-button"><a href="service-details.html"><i
+                                                class="flaticon-right-arrow-1"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 colmun">
+                    <div class="service-block-001 mb_30 wow fadeInUp animated" data-wow-delay="600ms"
+                        data-wow-duration="1500ms">
+                        <div class="service-inner" style="background-image: url(assets/images/service/service-9.jpg);">
+                            <div class="logo-icon" style=" background-color: #5A9E41;">
+                                <img src="assets/images/icons/road-freight.svg" alt="">
+                            </div>
+                            <div class="tag"><img src="assets/images/icons/03.png" alt=""></div>
+                            <div class="show-content" style=" background-color: #11468df5;">
+                                <div class="text-area" style="    height: 398px;">
+                                    <h4><a href="#">Combine Packages and...</a></h4>
+                                    <p>Bundle multiple orders intoa single package...</p>
+                                </div>
+                                <div class="image-box">
+                                    <img src="assets/images/service/service-6.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="hidden-content" style=" background-color: #11468df5;">
+                                <div class="text-area">
+                                    <h4><a href="#">Combine Packages and Save</a></h4>
+                                    <p>Bundle multiple orders into a single package. Now you can shop from several sites
+                                        and save. U-Send’s package consolidation services are always free for premium
+                                        members.</p>
+                                    <div class="link-button"><a href="service-details.html"><i
+                                                class="flaticon-right-arrow-1"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 colmun">
+                    <div class="service-block-001 mb_30 wow fadeInUp animated" data-wow-delay="600ms"
+                        data-wow-duration="1500ms">
+                        <div class="service-inner" style="background-image: url(assets/images/service/service-9.jpg);">
+                            <div class="logo-icon" style=" background-color: #5A9E41;">
+                                <img src="assets/images/icons/road-freight.svg" alt="">
+                            </div>
+                            <div class="tag"><img src="assets/images/icons/03.png" alt=""></div>
+                            <div class="show-content" style=" background-color: #11468df5;">
+                                <div class="text-area" style="    height: 398px;">
+                                    <h4><a href="#">Split Orders</a></h4>
+                                    <p>Want to buy gifts for family and friends? Separate a big order into multiple
+                                        packages and...</p>
+                                </div>
+                                <div class="image-box">
+                                    <img src="assets/images/service/service-6.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="hidden-content" style=" background-color: #11468df5;">
+                                <div class="text-area">
+                                    <h4><a href="#">Split Orders</a></h4>
+                                    <p>Want to buy gifts for family and friends? Separate a big order into multiple
+                                        packages and ship to different addresses. With U-Send, you have total control
+                                        over your shipment options. </p>
+                                    <div class="link-button"><a href="service-details.html"><i
+                                                class="flaticon-right-arrow-1"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 colmun">
+                    <div class="service-block-001 mb_30 wow fadeInUp animated" data-wow-delay="600ms"
+                        data-wow-duration="1500ms">
+                        <div class="service-inner" style="background-image: url(assets/images/service/service-9.jpg);">
+                            <div class="logo-icon" style=" background-color: #5A9E41;">
+                                <img src="assets/images/icons/road-freight.svg" alt="">
+                            </div>
+                            <div class="tag"><img src="assets/images/icons/03.png" alt=""></div>
+                            <div class="show-content" style=" background-color: #11468df5;">
+                                <div class="text-area" style="    height: 398px;">
+                                    <h4><a href="#">Autoship</a></h4>
+                                    <p>With Autoship, choose your default shipping address, preferred courier, preferred
+                                        payment...</p>
+                                </div>
+                                <div class="image-box">
+                                    <img src="assets/images/service/service-6.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="hidden-content" style=" background-color: #11468df5;">
+                                <div class="text-area">
+                                    <h4><a href="#">Autoship</a></h4>
+                                    <p>With Autoship, choose your default shipping address, preferred courier, preferred
+                                        payment method, and leave the rest to us. Your packages will be shipped out
+                                        immediately without any further input from your side.</p>
+                                    <div class="link-button"><a href="service-details.html"><i
+                                                class="flaticon-right-arrow-1"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 colmun">
+                    <div class="service-block-001 mb_30 wow fadeInUp animated" data-wow-delay="600ms"
+                        data-wow-duration="1500ms">
+                        <div class="service-inner" style="background-image: url(assets/images/service/service-9.jpg);">
+                            <div class="logo-icon" style=" background-color: #5A9E41;">
+                                <img src="assets/images/icons/road-freight.svg" alt="">
+                            </div>
+                            <div class="tag"><img src="assets/images/icons/03.png" alt=""></div>
+                            <div class="show-content" style=" background-color: #11468df5;">
+                                <div class="text-area" style="    height: 398px;">
+                                    <h4><a href="#">Concierge Service</a></h4>
+                                    <p>Having a hard time fulfilling your wish list? For our premium members, we can
+                                        find the...</p>
+                                </div>
+                                <div class="image-box">
+                                    <img src="assets/images/service/service-6.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="hidden-content" style=" background-color: #11468df5;">
+                                <div class="text-area">
+                                    <h4><a href="#">Concierge Service</a></h4>
+                                    <p>Having a hard time fulfilling your wish list? For our premium members, we can
+                                        find the item you are looking for, buy it, and have it shipped to your house
+                                        immediately. No more hassle if your payment is not going through.</p>
+                                    <div class="link-button"><a href="service-details.html"><i
+                                                class="flaticon-right-arrow-1"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="display: flex; justify-content: center;">
+                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 colmun" style="margin-right: 40px;">
+                        <div class="service-block-001 mb_30 wow fadeInUp animated" data-wow-delay="600ms"
+                            data-wow-duration="1500ms">
+                            <div class="service-inner"
+                                style="background-image: url(assets/images/service/service-9.jpg);">
+                                <div class="logo-icon" style=" background-color: #5A9E41;">
+                                    <img src="assets/images/icons/road-freight.svg" alt="">
+                                </div>
+                                <div class="tag"><img src="assets/images/icons/03.png" alt=""></div>
+                                <div class="show-content" style=" background-color: #11468df5;">
+                                    <div class="text-area" style="    height: 398px;">
+                                        <h4><a href="#">Save on Shipping</a></h4>
+                                        <p>We have been in the shipping business for the last 8 years, take advantage of
+                                            our...</p>
+                                    </div>
+                                    <div class="image-box">
+                                        <img src="assets/images/service/service-6.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="hidden-content" style=" background-color: #11468df5;">
+                                    <div class="text-area">
+                                        <h4><a href="#">Save on Shipping</a></h4>
+                                        <p>We have been in the shipping business for the last 8 years, take advantage of
+                                            our amazing discounts, and save up to 80% in shipping. Try our shipping
+                                            calculator today and see how we compare.</p>
+                                        <div class="link-button"><a href="service-details.html"><i
+                                                    class="flaticon-right-arrow-1"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 colmun">
+                        <div class="service-block-001 mb_30 wow fadeInUp animated" data-wow-delay="600ms"
+                            data-wow-duration="1500ms">
+                            <div class="service-inner"
+                                style="background-image: url(assets/images/service/service-9.jpg);">
+                                <div class="logo-icon" style=" background-color: #5A9E41;">
+                                    <img src="assets/images/icons/road-freight.svg" alt="">
+                                </div>
+                                <div class="tag"><img src="assets/images/icons/03.png" alt=""></div>
+                                <div class="show-content" style=" background-color: #11468df5;">
+                                    <div class="text-area" style="    height: 398px;">
+                                        <h4><a href="#">Same-day Shipping</a></h4>
+                                        <p>Get your favorite items even faster. Most international deliveries take
+                                            only...</p>
+                                    </div>
+                                    <div class="image-box">
+                                        <img src="assets/images/service/service-6.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="hidden-content" style=" background-color: #11468df5;">
+                                    <div class="text-area">
+                                        <h4><a href="#">Same-day Shipping</a></h4>
+                                        <p>Get your favorite items even faster. Most international deliveries take only
+                                            2-4 days! We can ship your products the same day that they arrive in our
+                                            warehouse.</p>
+                                        <div class="link-button"><a href="service-details.html"><i
+                                                    class="flaticon-right-arrow-1"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="link-button" style="display: flex; justify-content: center; padding: 20px;">
+                    <a href="about.html" class="button-style-three" style=" background-color: #5A9E41;"><i
+                            class="flaticon-document"></i>Try our
+                        Calculator</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Service Section One -->
+
+    <!-- Cta 001 -->
+
+    <!-- End Cta 001 -->
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us-section sec-padd-150">
+        <div class="shape-three" data-parallax='{"x": 200}'><img src="assets/images/shape/shape-3.png" alt=""></div>
+        <div class="shape-four" data-parallax='{"x": 200}'><img src="assets/images/shape/shape-4.png" alt=""></div>
+        <div class="container">
+            <div class="col-xl-3 col-lg-12">
+                <div class="section-title mb_30 wow fadeInUp animated" data-wow-delay="300ms"
+                    data-wow-duration="1500ms">
+                    <h3 class="title" style="width: 900px; margin-left: 50px;">Download our app to take advantage of the
+                        following:</span>
+                    </h3>
+                </div>
+            </div>
+            <div style="display: flex;">
+                <div class="row tabs-box">
+                    <div class="col-xl-3 col-lg-12" style="width: 770px;">
+                        <ul class="tab-buttons" style=" margin-left: 50px">
+                            <li class="tab-btn" data-tab="#tab-1" style="width: 500px;">
+                                <div class="icon-one"><i class="flaticon-layer"></i></div>
+                                Register and manage your profile
+                            </li>
+                            <li class="tab-btn" data-tab="#tab-2" style="width: 500px;">
+                                <div class="icon-one"><i class="flaticon-layer"></i></div>
+                                Get notified when a package arrives in your mailbox
+                            </li>
+                            <li class="tab-btn" data-tab="#tab-3" style="width: 500px;">
+                                <div class="icon-one"><i class="flaticon-layer"></i></div>
+                                Combine/split packages
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row tabs-box">
+                    <div class="col-xl-3 col-lg-12">
+                        <ul class="tab-buttons" style=" width: 500px;">
+                            <li class="tab-btn" data-tab="#tab-1" style="width: 500px;">
+                                <div class="icon-one"><i class="flaticon-layer"></i></div>
+                                Built in shipping calculator
+                            </li>
+                            <li class="tab-btn" data-tab="#tab-2" style="width: 500px;">
+                                <div class="icon-one"><i class="flaticon-layer"></i></div>
+                                Manage concierge requests and payments
+                            </li>
+                            <li class="tab-btn" data-tab="#tab-3" style="width: 500px; padding: 23px;">
+                                <div class="icon-one"><i class="flaticon-layer"></i></div>
+                                Choose your preferred courier, confirm shipment, and track your package.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class=" text-left mt-4"> <a id="a_link" href="https://apps.apple.com/us/app/u-send/id1521810945"
+                target="_blank">
+
+                <img src="/assets/footer_app_store-9e564340a1ffc7847617cc66d16432931dcdadb348c12a20d95eed747d2275c7.png"
+                    class="img-fluid" alt=""></a>
+            <a class="ml12" href="https://play.google.com/store/apps/details?id=com.usend" target="_blank" id="a_link">
+                <img src="/assets/footer_play_store-d0fead75b22fd651e52eb898c19e9790cd69367c30e943ebd459ac793fbb8cc2.png"
+                    class="img-fluid" alt=""></a>
+        </div>
+    </section>
+    <!-- End Why Choose Us Section -->
+    <!-- Clients Section -->
+    <section class="client-section sec-padd-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div class="client-logo mb_30 wow fadeInUp animated" data-wow-delay="300ms"
+                        data-wow-duration="1500ms">
+                        <a href="#"><img src="assets/images/partner1.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div class="client-logo mb_30 wow fadeInUp animated" data-wow-delay="600ms"
+                        data-wow-duration="1500ms">
+                        <a href="#"><img src="assets/images/partner2.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div class="client-logo mb_30 wow fadeInUp animated" data-wow-delay="900ms"
+                        data-wow-duration="1500ms">
+                        <a href="#"><img src="assets/images/partner3.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div class="client-logo mb_30 wow fadeInUp animated" data-wow-delay="1200ms"
+                        data-wow-duration="1500ms">
+                        <a href="#"><img src="assets/images/partner4.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Clients Section -->
+
+    <!-- Footer Section -->
+    <footer class="main-footer">
+        <div class="shape-weight"><img src="assets/images/shape/weight.png" alt=""></div>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row clearfix">
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 footer-column">
+                        <div class="footer-widget about-widget">
+                            <figure class="footer-logo mb_30">
+                                <a href="index-2.html">
+                                    <img src="assets/images/logo1.png" alt="" style="height: 35px;">
+                                </a>
+                            </figure>
+                            <p class="text mb_30"></p>
+                            <div class="link-btn"><a href="#" class="button-style-three"
+                                    style="background-color: #5A9E41;"><i class="flaticon-document"></i> About Us</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 footer-column">
+                        <div class="footer-widget info-widget">
+                            <div class="widget-title">
+                                <h5>Office Info</h5>
+                            </div>
+                            <ul class="contact-info-two">
+                                <li><a href="#"><i class="flaticon-telephone-1"
+                                            style=" background-color: #11468df5;"></i>+88 12345 6987 231 </a></li>
+                                <li><a href="#"><i class="flaticon-envelope-1"
+                                            style=" background-color: #11468df5;"></i>support@U-Send.com</a></li>
+                                <li><i class="flaticon-pin" style=" background-color: #11468df5;"></i>380 St Kilda Road,
+                                    Melbourne <br>VIC 3004, Australia
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 footer-column">
+                        <div class="footer-widget links-widget">
+                            <div class="widget-title">
+                                <h5>Newsletter</h5>
+                            </div>
+                            <p class="text">Subscribe our newsletter to get our latest update & news</p>
+                            <form class="newsletter-form"
+                                action="https://www.commonsupport.com/html/Nasim/Vervoer/action_page.php">
+                                <div class="icon"><i class="flaticon-envelope"></i></div>
+                                <input type="text" placeholder="Email Address" name="mail" required>
+                                <button type="submit" style=" background-color: #11468df5;"><i
+                                        class="flaticon-send"></i></button>
+                            </form>
+                            <div class="social-midea mt_25">
+                                <ul>
+
+                                    <li><a href="#"><i class="flaticon-facebook-1"></i></a></li>
+                                    <li><a href="#"><i class="flaticon-instagram"></i></a></li>
+                                    <li><a href="#"><i class="flaticon-twitter"></i></a></li>
+                                    <li><a href="#"><i class="flaticon-dribbble-1"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 footer-column">
+                        <div class="footer-widget project-widget">
+                            <div class="widget-title">
+                                <h5>Our Projects</h5>
+                            </div>
+                            <div class="wrapper-box">
+                                <div class="image">
+                                    <a href="assets/images/project/project-1.png" class="lightbox-image"
+                                        data-fancybox="gallery"><img src="assets/images/project-1.png" alt=""></a>
+                                </div>
+                                <div class="image">
+                                    <a href="assets/images/project/project-2.png" class="lightbox-image"
+                                        data-fancybox="gallery"><img src="assets/images/project/project-2.png"
+                                            alt=""></a>
+                                </div>
+                                <div class="image">
+                                    <a href="assets/images/project/project-3.png" class="lightbox-image"
+                                        data-fancybox="gallery"><img src="assets/images/project/project-3.png"
+                                            alt=""></a>
+                                </div>
+                                <div class="image">
+                                    <a href="assets/images/project/project-4.png" class="lightbox-image"
+                                        data-fancybox="gallery"><img src="assets/images/project/project-4.png"
+                                            alt=""></a>
+                                </div>
+                                <div class="image">
+                                    <a href="assets/images/project/project-5.png" class="lightbox-image"
+                                        data-fancybox="gallery"><img src="assets/images/project/project-5.png"
+                                            alt=""></a>
+                                </div>
+                                <div class="image">
+                                    <a href="assets/images/project/project-6.png" class="lightbox-image"
+                                        data-fancybox="gallery"><img src="assets/images/project/project-6.png"
+                                            alt=""></a>
+                                </div>
+                                <div class="image">
+                                    <a href="assets/images/project/project-1.png" class="lightbox-image"
+                                        data-fancybox="gallery"><img src="assets/images/project/project-1.png"
+                                            alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-inner">
+                    <div class="copyright-text">&copy; 2023 <a href="#">U-Send.</a> All rights reserved.</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer Section -->
+
+    <!-- Scroll to Top -->
+    <button class="scroll-top scroll-to-target" data-target="html">
+        <i class="flaticon-right-arrow-1"></i>
+    </button>
+    <!--End Scroll to Top -->
+
+    <!-- Jequery Plugins -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/appear.js"></script>
+    <script src="assets/js/jquery-ui.js"></script>
+    <script src="assets/js/jquery.fancybox.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/parallax-scroll.js"></script>
+    <script src="assets/js/parallax.min.js"></script>
+    <script src="assets/js/TweenMax.min.js"></script>
+    <script src="assets/js/validation.js"></script>
+    <script src="assets/js/bxslider.js"></script>
+    <!-- End Jequery Plugins -->
+
+    <!-- Main Js -->
+    <script src="assets/js/main.js"></script>
+    <!-- End Main Js -->
+
+</body>
+<!-- End Page Wrapper -->
+
+
+<!-- Mirrored from www.commonsupport.com/html/Nasim/Vervoer/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 22 Feb 2023 08:13:15 GMT -->
+
+</html>
