@@ -1404,7 +1404,7 @@
     height: 100%;
     z-index: -1;
     border-radius: 10px;
-    border: 1px solid var(--primary-color);
+    /* border: 1px solid var(--primary-color); */
     transition:all 500ms ease;
     -moz-transition:all 500ms ease;
     -webkit-transition:all 500ms ease;
@@ -1412,7 +1412,7 @@
     -o-transition:all 500ms ease;
 }
 .feature-block-two:hover:before{
-    border-color: var(--secondary-color);
+    /* border-color: var(--secondary-color); */
 }
 .feature-block-two .icon-box{
     margin-bottom: 20px;
