@@ -101,7 +101,7 @@
     font-family: var(--sacramento);
 }
 .company-about .content-colmun{
-    margin-right: 100px;
+    margin-right: 0px;
 }
 .company-about .section-title .title span{
     color: var(--secondary-color);
