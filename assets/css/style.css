@@ -229,7 +229,7 @@
     position: relative;    
     padding: 170px 60px 50px;
 }
-.service-block-001:hover .show-content{
+/* .service-block-001:hover .show-content{
     opacity: 0;
     visibility: hidden;
 }
@@ -251,12 +251,12 @@
 }
 .service-block-001 .hidden-content .text-area {
     padding: 250px 60px 40px;
-}
-.service-block-001:hover .hidden-content{
+} */
+/* .service-block-001:hover .hidden-content{
     visibility: visible;
     opacity: 1;
     transform: translateY(0%);
-}
+} */
 .service-block-001 .text-area h4 a{
     position: relative;
     color: var(--white-color);
